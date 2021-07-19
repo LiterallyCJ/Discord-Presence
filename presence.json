@@ -1,0 +1,16 @@
+{
+    "details": "Details here!",
+    "state": "State here!",
+
+    "largeImageKey": "",
+    "largeImageText": "",
+
+    "smallImageKey": "",
+    "smallImageText": "",    
+    
+    "_COMMENT": "You can only have a maximum of 2 buttons",
+    "buttons": [
+        { "label": "LABEL1", "url": "LINK1" },
+        { "label": "LABEL2", "url": "LINK2" }
+    ]
+}

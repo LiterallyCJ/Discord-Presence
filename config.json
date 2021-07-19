@@ -1,0 +1,7 @@
+{
+    "_COMMENT": "Enabling live update may make the program consume more RAM and/or CPU.",
+    "liveUpdate": false,
+
+    "clientID": "",
+    "clientSecret": ""
+}
