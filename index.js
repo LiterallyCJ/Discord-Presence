@@ -3,7 +3,7 @@ const client = new RPC.Client({
     transport: 'ipc'
 });
 
-const config = require("./config.json");
+const config = require("./configs/config.json");
 let setActivityLoop;
 
 const template = {
@@ -20,7 +20,7 @@ const template = {
 let request = {};
 
 const updateRequest = _ => {
-    let presence = require("./presence.json");
+    let presence = require("./configs/presence.json");
 
     for (let [key, _] of Object.entries(template)) {
         let newVal = presence[key];
